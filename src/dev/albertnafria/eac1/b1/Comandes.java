@@ -22,8 +22,6 @@ public class Comandes {
 		String flag = "aux";
 
 		try {
-			
-			//IMPLEMENTA
 			//Creo Objecte ProcessBuilder
 			ProcessBuilder pb = new ProcessBuilder(cmd, flag);
 
@@ -43,7 +41,6 @@ public class Comandes {
 			pb2.command("/usr/bin/mousepad", System.getenv("HOME") + "/Desktop/ps_out.txt");
 			pb2.start();
                        
-                        
 		} catch(Exception ex) {
 			ex.printStackTrace();
 		}

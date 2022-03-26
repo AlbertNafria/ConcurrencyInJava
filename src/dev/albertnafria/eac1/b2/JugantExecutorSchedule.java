@@ -18,8 +18,6 @@ public class JugantExecutorSchedule {
  
     public static void main(String[] args) throws InterruptedException, ExecutionException {
 
-        //IMPLEMENTA
-
         // crea un pool únic
         final ScheduledExecutorService executor = Executors.newSingleThreadScheduledExecutor();
 
